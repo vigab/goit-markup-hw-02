@@ -1,15 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>WebStudio</title>
   </head>
+
   <body>
+    <!-- Header -->
     <header>
-      <a href="https://vigab.github.io/goit-markup-hw-02/">
+      <a class="link" href="https://vigab.github.io/goit-markup-hw-02/">
         <h2 class="web">Web<span class="studio">Studio</span></h2>
       </a>
       <nav>
@@ -27,18 +35,42 @@
       </nav>
       <ul>
         <li>
-          <a href="mailto:info@devstudio.com">mailto:info@devstudio.com</a>
+          <a class="contact" href="mailto:info@devstudio.com"
+            >mailto:info@devstudio.com</a
+          >
         </li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li><a class="contact" href="tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </header>
-    <section>
+    <main>
+      <!-- Section 5 -->
+      <section>
         <ul>
-            <li><button type="button">Wszystkie</button></li>
-            <li><button type="button">Strony</button></li>
-            <li><button type="button">Aplikacje</button></li>
-            <li><button type="button">Dizajn</button></li>
-            <li><button type="button">Markering</button></li>
+          <li>
+            <button type="button">
+              <span class="button-portfolio">Wszystkie</span>
+            </button>
+          </li>
+          <li>
+            <button type="button">
+              <span class="button-portfolio">Strony</span>
+            </button>
+          </li>
+          <li>
+            <button type="button">
+              <span class="button-portfolio">Aplikacje</span>
+            </button>
+          </li>
+          <li>
+            <button type="button">
+              <span class="button-portfolio">Dizajn</span>
+            </button>
+          </li>
+          <li>
+            <button type="button">
+              <span class="button-portfolio">Marketing</span>
+            </button>
+          </li>
         </ul>
         <ul>
           <li>
@@ -46,12 +78,12 @@
               <img
                 src="./images/technocrack.jpg"
                 alt="projekt strony internetowej"
-                style="width: 340px"
-                style="height: 340px"
+                width="370"
+                height="294"
               />
               <figcaption>
                 <h4 class="portfolio-name">Technocrack</h4>
-                <p class="occupation">Strona internetowa</p>
+                <p class="affiliation">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -60,12 +92,14 @@
               <img
                 src="./images/grafika-new-orlean.jpg"
                 alt="zawodnicy koszykówki"
-                style="width: 340px"
-                style="height: 340px"
+                width="370"
+                height="294"
               />
               <figcaption>
-                <h4 class="portfolio-name">Grafika New Orlean vs Golden Star</h4>
-                <p class="occupation">Dizajn</p>
+                <h4 class="portfolio-name">
+                  Grafika New Orlean vs Golden Star
+                </h4>
+                <p class="affiliation">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -74,12 +108,12 @@
               <img
                 src="./images/restauracja-apka.jpg"
                 alt="logo restauracji"
-                style="width: 340px"
-                style="height: 340px"
+                width="370"
+                height="294"
               />
               <figcaption>
                 <h4 class="portfolio-name">Restauracja Seafood</h4>
-                <p class="occupation">Aplikacja</p>
+                <p class="affiliation">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -88,12 +122,12 @@
               <img
                 src="./images/projekt-prime.jpg"
                 alt="słuchawki"
-                style="width: 340px"
-                style="height: 340px"
+                width="370"
+                height="294"
               />
               <figcaption>
                 <h4 class="portfolio-name">Projekt Prime</h4>
-                <p class="occupation">Marketing</p>
+                <p class="affiliation">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -102,12 +136,12 @@
               <img
                 src="./images/projekt-boxes.jpg"
                 alt="pudełka"
-                style="width: 340px"
-                style="height: 340px"
+                width="370"
+                height="294"
               />
               <figcaption>
                 <h4 class="portfolio-name">Projekt Boxes</h4>
-                <p class="occupation">Aplikacja</p>
+                <p class="affiliation">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
@@ -116,12 +150,12 @@
               <img
                 src="./images/isnpiration.jpg"
                 alt="ekran komputerowy"
-                style="width: 340px"
-                style="height: 340px"
+                width="370"
+                height="294"
               />
               <figcaption>
                 <h4 class="portfolio-name">Inspiration has no Borders</h4>
-                <p class="occupation">Strona internetowa</p>
+                <p class="affiliation">Strona internetowa</p>
               </figcaption>
             </figure>
           </li>
@@ -130,12 +164,12 @@
               <img
                 src="./images/magazyn.jpg"
                 alt="magazyn"
-                style="width: 340px"
-                style="height: 340px"
+                width="370"
+                height="294"
               />
               <figcaption>
                 <h4 class="portfolio-name">Magazyn Limited Edition</h4>
-                <p class="occupation">Dizajn</p>
+                <p class="affiliation">Dizajn</p>
               </figcaption>
             </figure>
           </li>
@@ -144,12 +178,12 @@
               <img
                 src="./images/projekt-lab.jpg"
                 alt="eytkieta"
-                style="width: 340px"
-                style="height: 340px"
+                width="370"
+                height="294"
               />
               <figcaption>
                 <h4 class="portfolio-name">Projekt LAB</h4>
-                <p class="occupation">Marketing</p>
+                <p class="affiliation">Marketing</p>
               </figcaption>
             </figure>
           </li>
@@ -158,24 +192,32 @@
               <img
                 src="./images/growing.jpg"
                 alt="laptop"
-                style="width: 340px"
-                style="height: 340px"
+                width="370"
+                height="294"
               />
               <figcaption>
                 <h4 class="portfolio-name">Growing Business</h4>
-                <p class="occupation">Aplikacja</p>
+                <p class="affiliation">Aplikacja</p>
               </figcaption>
             </figure>
           </li>
-    </section>
-    <footer>
-      <a href="index.htm">
+        </ul>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <a class="link" href="https://vigab.github.io/goit-markup-hw-02/">
         <h2 class="web">Web<span class="studio">Studio</span></h2>
       </a>
-      <!-- <address> użyty 3 razy jedynie tymczasowo, by kolejne pozycje znajdowały się pod sobą, nie obok, proszę o podpowiedź, czy można to zrobić w lepszy sposób używając html -->
-      <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-      <address><a href="info@example.com">info@example.com</a></address>
-      <address><a href="tel:+48111111111">+48 111 111 111</a></address>
+      <address class="address-foot">
+        m. Warszawa, Aleje Jerozolimskie 21
+      </address>
+      <address>
+        <a class="contact-foot" href="info@example.com">info@example.com</a>
+      </address>
+      <address>
+        <a class="contact-foot" href="tel:+48111111111">+48 111 111 111</a>
+      </address>
     </footer>
   </body>
 </html>
