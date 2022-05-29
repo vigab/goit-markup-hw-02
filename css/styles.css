@@ -80,6 +80,7 @@ ul {
 button {
     background-color: var(--blue);
     cursor: pointer;
+    border: 0px;
 }
 
 .button-main {
