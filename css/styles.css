@@ -9,8 +9,9 @@ body {
     --blue: #2196F3;
     --black: #212121;
     --grey: #757575;
-    --background-main: #2F303A;
-    --button-grey: #F5F4FAx;
+    --background-dark: #2F303A;
+    --light-grey: #F5F4FA;
+    --background-main: #E5E5E5;
 
 }
 
@@ -65,8 +66,18 @@ ul {
 
 /*Sections main page*/
 
-.section1 {
+.section-1 {
+    background-color: var(--background-dark);
+}
+
+.section-2,
+.section-3,
+.section-5 {
     background-color: var(--background-main);
+}
+
+.section-4 {
+    background-color: var(--light-grey);
 }
 
 .title-main {
@@ -157,7 +168,7 @@ button {
 /*Footer*/
 
 .footer {
-    background-color: var(--background-main);
+    background-color: var(--background-dark);
 }
 
 .web-foot,
