@@ -6,12 +6,12 @@ body {
 }
 
 :root {
-    --blue: #2196F3;
-    --black: #212121;
-    --grey: #757575;
+    --main-blue: #2196F3;
+    --lighter-black: #212121;
+    --main-grey: #757575;
     --background-dark: #2F303A;
-    --light-grey: #F5F4FA;
-    --background-main: #E5E5E5;
+    --button-grey: #F5F4FA;
+    --background-grey: #F5F4FA;
 
 }
 
@@ -30,7 +30,7 @@ ul {
 }
 
 .web {
-    color: var(--blue);
+    color: var(--main-blue);
 }
 
 .studio {
@@ -39,12 +39,12 @@ ul {
 
 .link:hover,
 .link:focus {
-    color: var(--blue);
+    color: var(--main-blue);
 }
 
 .contact:hover,
 .contact:focus {
-    color: var(--blue);
+    color: var(--main-blue);
 }
 
 .link,
@@ -56,28 +56,22 @@ ul {
 }
 
 .link {
-    color: var(--black);
+    color: var(--lighter-black);
 }
 
 .contact {
-    color: var(--grey);
+    color: var(--main-grey);
 }
 
 
 /*Sections main page*/
 
-.section-1 {
+.section-title {
     background-color: var(--background-dark);
 }
 
-.section-2,
-.section-3,
-.section-5 {
-    background-color: var(--background-main);
-}
-
-.section-4 {
-    background-color: var(--light-grey);
+.our-team {
+    background-color: var(--background-grey);
 }
 
 .title-main {
@@ -88,13 +82,17 @@ ul {
     line-height: 1.36;
 }
 
-button {
-    background-color: var(--blue);
+.button-main {
+    background-color: var(--main-blue);
     cursor: pointer;
     border: 0px;
 }
 
-.button-main {
+.button-main:hover {
+    background-color: #2196F3CC;
+}
+
+.button-main-text {
     color: white;
     font-size: 16px;
     font-weight: 700;
@@ -106,13 +104,13 @@ button {
     font-weight: 700;
     font-size: 14px;
     text-transform: uppercase;
-    color: var(--black);
+    color: var(--lighter-black);
     line-height: 1.14;
 }
 
 .lorem-text {
     font-size: 14px;
-    color: var(--grey);
+    color: var(--main-grey);
     line-height: 1.71;
 }
 
@@ -120,7 +118,7 @@ button {
     font-size: 36px;
     font-weight: 700;
     text-align: center;
-    color: var(--black);
+    color: var(--lighter-black);
     line-height: 1.17;
 }
 
@@ -128,24 +126,34 @@ button {
     font-weight: 500;
     font-size: 16px;
     text-align: center;
-    color: var(--black);
+    color: var(--lighter-black);
     line-height: 1.19;
 }
 
 .occupation {
     font-size: 16px;
     text-align: center;
-    color: var(--grey);
+    color: var(--main-grey);
     line-height: 1.19;
 }
 
 /* Section portfolio */
 
 .button-portfolio {
+    background-color: var(--button-grey);
+    cursor: pointer;
+    border: 0px;
+}
+
+.button-portfolio:hover {
+    background-color: var(--main-blue);
+}
+
+.button-portfolio-text {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.62;
-    color: white;
+    color: var(--lighter-black);
     text-align: center;
 }
 
@@ -153,13 +161,13 @@ button {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    color: var(--black);
+    color: var(--lighter-black);
 }
 
 .affiliation {
     font-size: 16px;
     line-height: 1.88;
-    color: var(--grey);
+    color: var(--main-grey);
 }
 
 
@@ -180,7 +188,7 @@ button {
 }
 
 .web-foot {
-    color: var(--blue);
+    color: var(--main-blue);
 }
 
 .studio-foot {
@@ -188,19 +196,22 @@ button {
 }
 
 .address-foot {
-    font-size: 14px;
-    line-height: 1.71;
     color: white;
 }
 
 .contact-foot:hover,
 .contact-foot:focus {
-    color: var(--blue);
+    color: var(--main-blue);
 }
 
 .contact-foot {
     text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.address-foot,
+.contact-foot {
     font-size: 14px;
     line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
 }
