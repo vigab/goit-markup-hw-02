@@ -149,6 +149,10 @@ ul {
     background-color: var(--main-blue);
 }
 
+.button-portfolio:hover>span {
+    color: white;
+}
+
 .button-portfolio-text {
     font-size: 16px;
     font-weight: 500;
